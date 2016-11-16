@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec < /dev/tty
+
+php vendor/kodosunifa/kodosunifa.php kodosunifa:sniff-code

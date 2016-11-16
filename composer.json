@@ -1,0 +1,16 @@
+{
+  "name": "jemGetQualified/kodosunifa",
+  "description": "Git pre-push hook management",
+  "autoload": {
+    "psr-4": {
+      "Kodosunifa\\": "command/"
+    }
+  },
+  "require": {
+    "symfony/console": "~3.0",
+    "symfony/process": "~3.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.6"
+  }
+}
