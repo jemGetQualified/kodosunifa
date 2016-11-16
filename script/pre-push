@@ -2,4 +2,4 @@
 
 exec < /dev/tty
 
-php vendor/kodosunifa/kodosunifa.php kodosunifa:sniff-code
+php vendor/jem-get-qualified/kodosunifa/kodosunifa.php kodosunifa:sniff-code
