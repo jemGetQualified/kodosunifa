@@ -12,5 +12,24 @@
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.6"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "package": {
+        "name": "jemGetQualified/kodosunifa",
+        "version": "dev-master",
+        "source": {
+          "url": "git://github.com/jemGetQualified/kodosunifa.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "psr-0": {
+            "Kodosunifa": "command"
+          }
+        }
+      }
+    }
+  ]
 }
